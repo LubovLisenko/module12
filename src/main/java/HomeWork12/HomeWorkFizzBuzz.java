@@ -14,5 +14,6 @@ public class HomeWorkFizzBuzz {
         service.submit(fizzBuzzService::fizzbuzz);
         service.submit(fizzBuzzService::number);
         service.submit(fizzBuzzService::print);
+        service.shutdown();
     }
 }

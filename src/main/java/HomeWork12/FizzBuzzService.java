@@ -102,7 +102,9 @@ public class FizzBuzzService {
             while (!queue.isEmpty()) {
                 System.out.println(queue.poll());
             }
+            notifyAll();
         }
+
     }
 }
 
