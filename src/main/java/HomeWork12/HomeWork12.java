@@ -17,7 +17,7 @@ public class HomeWork12 {
         );
         executorService.scheduleAtFixedRate(
                 () -> System.out.println("Минуло 5 секунд"),
-                0,
+                5,
                 5,
                 TimeUnit.SECONDS
         );
